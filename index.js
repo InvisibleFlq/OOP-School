@@ -4,7 +4,7 @@
 let osoba = {
   ime: 'Nikola',
   prezime: 'Tesla',
-  godiste: 1854,
+  godiste: 1857,
   interesi: ['matematika', 'elektronika', 'fizika'],
   pozdrav: function () {
     console.log(`Zdravo, ja sam ${this.ime} ${this.prezime}. Imam ${2022 - this.godiste} godina.`);
